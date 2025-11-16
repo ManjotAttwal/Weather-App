@@ -32,16 +32,24 @@ A small React Native (Expo) app that fetches weather for a city (VisualCrossing)
    ```
 
 2. install dependencies:
+
+   ```bash
    npm install
    npx expo install
+   ```
 
 3. Add VisualCrossing API key:
 
+   ```bash
    Get a key from https://www.visualcrossing.com
    Add to .env or set EXPO_PUBLIC_VISUALCROSSING_KEY in your environment.
+   ```
 
 Alternatively, place the key in app.json under expo.extra then access via process.env.EXPO_PUBLIC_VISUALCROSSING_KEY.
 
 4. Start the app:
+
+   ```bash
    npx expo start
    Open in Expo Go (Android/iOS) or a simulator.
+   ```
